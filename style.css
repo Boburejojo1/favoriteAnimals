@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.animals{
+    background: linear-gradient(to top, #ffffff 66%, #f1f1f1 34%);
+    margin:50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.423);
+    font-family: sans-serif;
+}
+.select{
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.select button{
+    color: rgba(0, 0, 0, 0.711);
+    background-color: #0000002a;
+    border: none;
+    border-radius: 15%;
+    width: 60px;
+    height: 45px;
+    font-size: 15px;
+    transition: background-color 0.5s, transform 0.5s;
+}
+.select button:hover{
+    background-color: rgb(182, 182, 182);
+    transform: scale(1.1);
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    color: rgba(0, 0, 0, 0.64);
+}
+.playSound button{
+    border: none;
+    background-color: green;
+    color: #ffffff;
+    width: 90px;
+    height: 35px;
+    border-radius: 8px;
+    transition: background-color 0.5s, transform 0.5s;
+}
+.playSound button:hover{
+    background-color: rgb(0, 207, 0);
+    transform: scale(1.1);
+}
